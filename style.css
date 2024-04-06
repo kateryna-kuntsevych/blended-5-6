@@ -1,0 +1,39 @@
+footer {
+    background: url("backgroundFooter.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+.footer-main-block {
+    align-items: center;
+    margin-bottom: 80px;
+}
+.d-flex {
+    display: flex;
+}
+.footer-bottom-info {
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-header-info {
+    display: flex;
+    gap: 28px;
+    margin: 0 auto;
+}
+.footer-header-info a {
+    color: #2C2C2C;
+    text-decoration: none;
+}
+.sub-block {
+    margin-left: auto;
+}
+.footer-links {
+    gap: 20px;
+}
+.footer-links-btn {
+    color: #7EB101;
+}
