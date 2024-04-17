@@ -4,121 +4,277 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food delivery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kalam&family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">     
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
+
   <body>
-    <header>
-      <nav>
-        <a href="/index.html">
-          <img src="/images/Vector.png" 
-          alt="Logo" 
-          width="66"></a>
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Service</a></li>
-            <li><a href="">Menu</a></li>
-            <li><a href="">Contact</a></li>
-            
-          </ul>
+    <!--  ===================HEADER========================-->
+    <header class="page-header">    
+     <nav class="page-nav">  
+       <a class="page-logo" href="/index.html">
+         <img src="images/Vector.png" 
+         alt="logo" width="66"></a>
+
+    
+       <ul class="menu">
+         <li class="home-item">
+           <a class="home-link" href="/index.html">Home</a>
+         </li> 
+         <li class="menu-item">
+           <a class="menu-link" href="">About</a>
+         </li>
+         <li class="menu-item">
+           <a class="menu-link" href="">Service</a>
+         </li>
+         <li class="menu-item">
+           <a class="menu-link" href="">Menu</a>
+         </li>
+         <li class="menu-item">
+           <a class="menu-link" href="">Contact</a>
+         </li>
+       </ul>
       </nav>
-      <button type="button">Order Now</button>
+      
+      <button class="page-button" type="button">Order Now</button>
     
     </header>
 
+    <!--======================MAIN==============================-->
     <main>
-    <section> 
-      <h1>Enjoy Your Favorite Food From Anywhere</h1>
-      <p>With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.</p>
-      <button type="button">Order Now</button>
-      <img src="./images/salat-section1.png" alt="Salat"
-        width="528"
-        height="528">
+      <!-- ==================HERO====================== -->
+      <section class="section-hero"> 
+        <ul>
+         <li>
+            <h1>Enjoy Your Favorite Food From Anywhere</h1> 
+         </li>
+         <li>
+            <p class="main-paragraf">
+             With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.
+            </p>
+          </li>
+          <li>
+             <button class="main-btn" type="button">Order Now</button>
+          </li>
+         </ul>
+
+          <ul>
+            <li>
+              <img class="img-salat" src="./images/salat-section1.png" alt="Salat"
+              width="528"
+              height="528">
+           </li>
+          </ul>
+         
     
-    </section>
+       </section>
 
-    <section>
-      <img src="./images/aple.png" alt="Apple">
-      <h2>What’s Special About Our Offerings</h2>
-      <p>With our platform, you can browse through a diverse selection of cuisines and local restaurants, and choose from a variety of dishes that cater to your specific taste buds.</p>
-      <ul>
-        <li>
-          <img src="./images/icon-deliv.png" alt="Delivery" width="48">
-          <h3>Fasest Delivery</h3>
-          <p>Our advanced logistics system and dedicated delivery partners ensure that your meals are delivered to you within 30-minutes.</p>
-        </li>
-        <li>
-          <img src="./images/icon-oder.png" alt="Order" width="48">
-          <h3>Easy To Order</h3>
-          <p>You can browse through a wide variety of cuisines and restaurants, select your favorite meals, and place your order in just a few clicks.</p>
-        </li>
-      </ul>
-      <button type="button">Order Now</button>
-    </section>
+     <!-- ==============OFFERINGS=================== -->
+      <section class="section-apple">
+        <ul>
+          <li>
+            <img class="img-apple" src="./images/aple.png" alt="Apple">
+          </li>
+         
+          <li>
+            <ul>
+             <li>
+               <h2 class="title-offering">
+                 What’s Special About Our Offerings
+              </h2>
+                <p class="text-apple">
+                 With our platform, you can browse through a diverse selection of cuisines and local restaurants, and choose from a variety of dishes that cater to your specific taste buds.
+                </p>
+             </li>
 
-    <section>
-      <h2>Some of Our Favorites</h2>
-      <p>Looking for something delicious? </p>
-      <ul>
-        <li><img src="./images/gamburger-min.png" alt="Gambutger" width="395" height="397"></li>
-        <li><img src="./images/pasta-min.png" alt="Pasta" width="395" height="397"></li>
-        <li><img src="./images/pizza-min.png" alt="Pizza" width="395" height="397"><br/></li> 
+             <li class="item-apple">
+               <img src="./images/icon-deliv.png" alt="Delivery" width="48">
+               <h3 class="name-offering">
+                 Fasest Delivery
+               </h3>
+               <p class="text-offering">
+                 Our advanced logistics system and dedicated delivery partners ensure that your meals are delivered to you within 30-minutes.
+               </p>
+             </li>
+
+             <li class="item-apple">
+               <img src="./images/icon-oder.png" alt="Order" width="48">
+               <h3 class="name-offering">
+                 Easy To Order
+               </h3>
+               <p class="text-offering">
+                You can browse through a wide variety of cuisines and restaurants, select your favorite meals, and place your order in just a few clicks.
+               </p>
+             </li>
+             
+             <li> 
+             <button class="btn-offering" type="button">Order Now</button>
+             </li>
+            </ul> 
+          </li>
+       </ul>
         
-        <li><img src="./images/chicken-min.png" alt="Chicken" width="395" height="397"></li>
-        <li><img src="./images/salat-min.png" alt="Salat" width="395" height="397"></li>
-        <li><img src="./images/borshch-min.png" alt="Borshch" width="395" height="397"></li>
+     </section>
+    
+     <!-- ==============FAVORITES====================== -->
+     <section class="section-favorites">
+       <h2 class="title-favorites">
+         Some of Our Favorites
+       </h2>
+       <p class="text-favorites">
+         Looking for something delicious? 
+       </p>
+      
+       <ul class="axample-favorites">
+         <li class="item-favorites">
+           <img class="img-favorites" src="./images/gamburger-min.png" alt="Gamburger" width="395" height="397">
+         </li>
+         <li class="item-favorites">
+           <img class="img-meal" src="./images/pasta-min.png" alt="Pasta" width="395" height="397">
+         </li>
+         <li class="item-favorites">
+           <img class="img-favorites" src="./images/pizza-min.png" alt="Pizza" width="395" height="397"><br/>
+         </li> 
+        
+         <li class="item-favorites">
+           <img class="img-favorites" src="./images/chicken-min.png" alt="Chicken" width="395" height="397">
+         </li>
+         <li class="item-favorites">
+           <img class="img-favorites" src="./images/salat-min.png" alt="Salat" width="395" height="397">
+         </li>
+         <li class="item-favorites">
+           <img class="img-favorites" src="./images/borshch-min.png" alt="Borshch" width="395" height="397">
+         </li>
       </ul>
       
-    </section>
+     </section>
 
-    <section>
-      <h2>What our Customers Say</h2>
-      <p>Don't just take our word for it - see what our satisfied customers have to say</p>
+     <!-- ==============CUSTOMERS====================== -->
+    <section class="section-cust">
+      <h2 class="title-cust">
+        What our Customers Say
+      </h2>
+      <p class="text-cust">
+        Don't just take our word for it - see what our satisfied customers have to say
+      </p>
+      
       <ul>
-       <li>
-         <img src="./images/vector-star.png" alt="Star" width="17">
-         <img src="./images/vector-star.png" alt="Star" width="17">
-         <img src="./images/vector-star.png" alt="Star" width="17">
-         <img src="./images/vector-star.png" alt="Star" width="17">
-         <img src="./images/vector-star.png" alt="Star" width="17">
-         <p>“The Best app I have used to order food in a while, so many options to choose from too, I would recommend to a freind, No questions asked”</p>
-         <ul>
-           <li><img src="./images/comment1.png" alt="Photo" width="48"></li>
-           <li>
-             <p>Sumith Shah</p> <br/>
-             <p>Some Dude</p>
-          </li>
-        </ul>
-      </li>
-       <li>
-         <img src="./images/vector-star.png" alt="Star" width="17">
-         <img src="./images/vector-star.png" alt="Star" width="17">
-         <img src="./images/vector-star.png" alt="Star" width="17">
-         <img src="./images/vector-star.png" alt="Star" width="17">
-         <img src="./images/vector-star.png" alt="Star" width="17">
-         <p>“The ease with which I can just go in and order what i want was amazing, It has been a very pleasant experience ordering from this app”</p>
-         <ul>
-          <li><img src="./images/comment2.png" alt="Photo"></li>
-          <li>
-           <p>Sumith Shah</p> <br/>
-           <p>Some Dude</p>
-          </li>
-        </ul>
-       </li>
-    </ul>
+        <li>
+          <ul class="comment">
+           <li class="item-comment">
+             <img src="./images/vector-star.png" alt="Star" width="17">
+             <img src="./images/vector-star.png" alt="Star" width="17">
+             <img src="./images/vector-star.png" alt="Star" width="17">
+             <img src="./images/vector-star.png" alt="Star" width="17">
+             <img src="./images/vector-star.png" alt="Star" width="17">
+           </li> 
+        
+           <li class="item-comment">
+             <p class="text-comment">
+               “The Best app I have used to order food in a while, so many options to choose from too, I would recommend to a freind, No questions asked”
+             </p>
+           </li> 
+
+           <li class="item-comment">
+             <ul>
+               <li>
+                 <img src="./images/comment1.png" alt="Photo" width="48">
+               </li>
+               <li>
+                 <p class="text-sumith">Sumith Shah</p>
+               </li>
+               <li>
+                 <p class="text-dude">Some Dude</p>
+               </li>
+             </ul>
+           </li>
+         </ul>
+        </li>
+
+      
+      <li>
+        <ul class="comment">
+         <li class="item-comment">
+           <img src="./images/vector-star.png" alt="Star" width="17">
+           <img src="./images/vector-star.png" alt="Star" width="17">
+           <img src="./images/vector-star.png" alt="Star" width="17">
+           <img src="./images/vector-star.png" alt="Star" width="17">
+           <img src="./images/vector-star.png" alt="Star" width="17">
+         </li>
+         <li class="item-comment">
+          <p class="text-comment">
+            “The ease with which I can just go in and order what i want was amazing, It has been a very pleasant experience ordering from this app”
+          </p>
+         </li>
+         <li class="item-comment">
+           <ul>
+             <li>
+               <img src="./images/comment2.png" alt="Photo">
+             </li>
+             <li>
+               <p class="text-sumith">Sumith Shah</p>
+             </li>
+             <li>
+               <p class="text-dude">Some Dude</p>
+             </li>
+           </ul>
+         </li>
+           
+        </ul> 
+      </li>  
+      
   </section>
 
-  <section>
-    <h2>Subscribe To Get Special Offers</h2>
-    <p>Order now and receive 10% off your first meal with Enjoy Your Favorite Food From Anywhere. </p>
+  <!-- ================SUBSCRIBE==================== -->
+  <section class="section-subscribe">
     <ul>
-      <li><a href="">Enter your email</a></li>
-      <li><button type="button">Subscribe</button></li>
-    </ul>
-    <img src="./images/banan.png" alt="Banan" width="608" height="266">
+      <li class="block-banan">
+        <ul class="block-subscribe">
+         <li class="item-subscribe">
+           <h2 class="title-subscribe">
+             Subscribe To Get Special Offers
+           </h2>
+         </li>
+         <li class="item-subscribe">
+           <p class="text-subscribe">
+             Order now and receive 10% off your first meal with Enjoy Your Favorite Food From Anywhere.
+           </p>
+         </li>
+         <li class="item-subscribe">
+           <ul class="list-banan">
+             <li class="item-banan">
+               <a class="enter-email" href="">Enter your email</a>
+             </li>
+             <li class="item-banan">
+               <button class="btn-subscribe" type="submit">Subscribe</button>
+             </li>
+           </ul>
+          </li>
+        </ul>
+     </li>
+      
+     <li class="block-banan">
+       <img class="img-banan" src="./images/banan.png" alt="Banan" width="608" height="266">
+     </li> 
+   
+   </ul>
+
   </section>
 
   </main>
 
+  <!-- ==============FOOTER================= -->
   <footer>
     <nav>
       <ul>
