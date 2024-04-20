@@ -13,6 +13,70 @@ button {
 img {
   display: block;
 }
+.container {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* =================== HEADER Den Djoya ================== */
+.page-header {
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-page-nav {
+  margin-left: auto;
+}
+
+.logo {
+}
+
+.header-list {
+  display: flex;
+  gap: 28px;
+}
+
+.header-list-item {
+}
+
+.header-list-link {
+  font-size: 14px;
+  color: #2c2c2c;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.header-button {
+  padding: 6px 18px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: right;
+  color: #2c2c2c;
+  border-radius: 30px;
+  padding: 6px 17px;
+  width: 98px;
+  height: 32px;
+  background: #bbf330;
+  border: none;
+  margin-left: 30px;
+}
+.active {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #bbf330;
+}
 
 /* ======================= Footer ======================= */
 footer li {
@@ -23,10 +87,6 @@ footer {
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
-}
-.container {
-  width: 1280px;
-  margin: 0 auto;
 }
 .footer-main-block {
   align-items: center;
