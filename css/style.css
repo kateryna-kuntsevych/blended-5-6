@@ -4,8 +4,90 @@
 ul {
   list-style-type: none;
 }
-
-/* ======================= Footer ======================= */
+/* ================== Section 4 Кирило ================== */
+.section-of-reviews{
+  background: #ffe550;
+  width: 1277px;
+  padding-left: 69px;
+  padding-right: 67px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 133px;
+  padding-bottom: 133px;
+}
+.review-container{
+  margin-right: (671px - 71px);
+  margin-bottom: 35px;
+}
+.reviews-text{
+  font-weight: 700;
+    font-size: 42px;
+    color: #2c2c2c;
+    font-family: "Roboto", sans-serif;
+}
+.reviews-paragraph{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+    font-size: 16px;
+    color: #2c2c2c;
+}
+.container-of-reviews{
+  display: flex;
+  gap: 139px;
+}
+.reviews-container{
+  background-color: #ffffff;
+  width: 501px;
+    height: 231px;
+    border-radius: 0 30px 30px 30px;
+}
+.list-of-stars{
+  display: flex;
+  gap: 4px;
+  padding-left: 14px;
+  margin-bottom: 28px;
+}
+.review{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+    font-size: 18px;
+    color: #2c2c2c;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+.container-of-account{
+  display: flex;
+  gap: 16px;
+  margin-left: 14px;
+  margin-top: 40px;
+}
+.container-of-something{
+  display: flex;
+  gap: 21px;
+}
+.container-of-names{
+  display: flex;
+  flex-direction: column;
+}
+.name-text{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #2c2c2c;
+    margin-bottom: 2px;
+    margin-top: 0;
+}
+.name-paragraph{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* ====================== Footer ======================= */
 footer li {
   display: block;
 }
