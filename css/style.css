@@ -1,14 +1,28 @@
 * {
   box-sizing: border-box;
 }
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+button {
+  cursor: pointer;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
 ul {
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
-button {
-  cursor: pointer;
 }
 img {
   display: block;
@@ -22,9 +36,6 @@ img {
 a {
   display: block;
   text-decoration: none;
-}
-body {
-  font-family: "Roboto", sans-serif;
 }
 /* =================== HEADER Den Djoya ================== */
 .page-header {
@@ -77,8 +88,59 @@ body {
   text-decoration-skip-ink: none;
   color: #bbf330;
 }
+/* ================== Section 4 Кирило ================== */
+.section-of-reviews {
+  background: #ffe550;
+  padding: 140px 92px 126px 16px;
+}
+.reviews-title {
+  font-weight: 700;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.reviews-paragraph {
+  font-size: 16px;
+  margin-bottom: 33px;
+}
+.container-of-reviews {
+  display: flex;
+  gap: 139px;
+}
+.reviews-container {
+  padding: 14px;
+  background-color: #ffffff;
+  border-radius: 0 30px 30px 30px;
+}
+.list-of-stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 29px;
+}
+.review {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.container-of-account {
+  display: flex;
+  gap: 16px;
+}
+.container-of-names {
+  display: flex;
+  flex-direction: column;
+  padding-right: 16px;
+  border-right: 1px solid #7eb101;
+}
+.review-name-text {
+  font-weight: 500;
+  font-size: 14px;
+  color: #2c2c2c; 
+  margin-bottom: 2px;
+}
+.review-name-paragraph {
+  font-size: 14px;
 
-/* ======================= Footer ======================= */
+/* ====================== Footer ======================= */
 footer li {
   display: block;
 }
