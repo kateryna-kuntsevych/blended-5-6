@@ -88,6 +88,44 @@ a {
   text-decoration-skip-ink: none;
   color: #bbf330;
 }
+/* ================== Section 3 Андрей Слюсаренко ================== */
+.section-favorites {
+  padding: 120px 0 101px 32px;
+}
+.list-favorites {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.item-favorites {
+  border: 16px solid #ffe550;
+  border-radius: 197px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 394px;
+  max-height: 397px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.item-favorites:hover {
+  border: 16px solid #bbf330;
+}
+.favorites-img {
+  border-radius: 157px;
+  margin: 41px 40px;
+}
+.title-favorites {
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.text-favorites {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 16px;
+}
 /* ================== Section 4 Кирило ================== */
 .section-of-reviews {
   background: #ffe550;
@@ -140,7 +178,6 @@ a {
 .review-name-paragraph {
   font-size: 14px;
 }
-
 /* ====================== Footer ======================= */
 footer li {
   display: block;
