@@ -23,7 +23,7 @@ ul {
   margin-bottom: 0;
   padding-left: 0;
 }
-}
+
 img {
   display: block;
 }
@@ -134,11 +134,12 @@ a {
 .review-name-text {
   font-weight: 500;
   font-size: 14px;
-  color: #2c2c2c; 
+  color: #2c2c2c;
   margin-bottom: 2px;
 }
 .review-name-paragraph {
   font-size: 14px;
+}
 
 /* ====================== Footer ======================= */
 footer li {
