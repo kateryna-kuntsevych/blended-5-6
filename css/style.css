@@ -177,31 +177,26 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 18px;
   padding-top: 176px;
-  padding-right: 12px;
   padding-bottom: 201px;
-}
-
-.content-subscribe {
-  max-width: 656px;
 }
 
 .title-subscribe {
   font-weight: 700;
   font-size: 42px;
   line-height: 1.2;
-  color: #2c2c2c;
   margin-bottom: 20px;
 }
 
 .text-subscribe {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
-  color: #2c2c2c;
   width: 532px;
   margin-bottom: 24px;
+}
+
+.form-subscribe {
+  display: flex;
+  gap: 32px;
 }
 
 .input-subscribe {
@@ -211,9 +206,7 @@ a {
   width: 395px;
   height: 42px;
   background-color: #fefefe;
-  font-weight: 400;
   font-size: 12px;
-  line-height: 1.5;
   color: #505050;
   margin-right: 32px;
 }
@@ -227,7 +220,6 @@ a {
   font-weight: 500;
   font-size: 13px;
   line-height: 1.5;
-  color: #2c2c2c;
 }
 
 /* ====================== Footer ======================= */
