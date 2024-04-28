@@ -57,6 +57,7 @@ a {
   color: #2c2c2c;
   padding-top: 28px;
   padding-bottom: 28px;
+
 }
 
 .header-button {
@@ -243,6 +244,145 @@ a {
   width: 532px;
   margin-bottom: 24px;
 }
+
+
+}
+
+.header-button {
+  padding: 6px 18px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: right;
+  color: #2c2c2c;
+  border-radius: 30px;
+  padding: 6px 17px;
+  width: 98px;
+  height: 32px;
+  background: #bbf330;
+  border: none;
+  margin-left: 30px;
+}
+.active {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #bbf330;
+}
+/* ================== Section 3 Андрей Слюсаренко ================== */
+.section-favorites {
+  padding: 120px 0 101px 32px;
+}
+.list-favorites {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.item-favorites {
+  border: 16px solid #ffe550;
+  border-radius: 197px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 394px;
+  max-height: 397px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.item-favorites:hover {
+  border: 16px solid #bbf330;
+}
+.favorites-img {
+  border-radius: 157px;
+  margin: 41px 40px;
+}
+.title-favorites {
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.text-favorites {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 16px;
+}
+/* ================== Section 4 Кирило ================== */
+.section-of-reviews {
+  background: #ffe550;
+  padding: 140px 92px 126px 16px;
+}
+.reviews-title {
+  font-weight: 700;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.reviews-paragraph {
+  font-size: 16px;
+  margin-bottom: 33px;
+}
+.container-of-reviews {
+  display: flex;
+  gap: 139px;
+}
+.reviews-container {
+  padding: 14px;
+  background-color: #ffffff;
+  border-radius: 0 30px 30px 30px;
+}
+.list-of-stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 29px;
+}
+.review {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.container-of-account {
+  display: flex;
+  gap: 16px;
+}
+.container-of-names {
+  display: flex;
+  flex-direction: column;
+  padding-right: 16px;
+  border-right: 1px solid #7eb101;
+}
+.review-name-text {
+  font-weight: 500;
+  font-size: 14px;
+  color: #2c2c2c;
+  margin-bottom: 2px;
+}
+.review-name-paragraph {
+  font-size: 14px;
+}
+
+/*=================== Section 5 Karpenko================*/
+.page-subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 176px;
+  padding-bottom: 201px;
+}
+
+.title-subscribe {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.text-subscribe {
+  font-size: 16px;
+  width: 532px;
+  margin-bottom: 24px;
+}
+
 
 .form-subscribe {
   display: flex;
