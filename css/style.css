@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+<<<<<<< HEAD
 h1,
 h2,
 h3,
@@ -223,6 +224,13 @@ a {
 }
 
 /* ====================== Footer ======================= */
+=======
+ul {
+  list-style-type: none;
+}
+
+/* ======================= Footer ======================= */
+>>>>>>> 1dd0bc57bec5327d2b5bfcbaa8921b679a42d7d7
 footer li {
   display: block;
 }
@@ -232,6 +240,13 @@ footer {
   background-size: contain;
   background-repeat: no-repeat;
 }
+<<<<<<< HEAD
+=======
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+>>>>>>> 1dd0bc57bec5327d2b5bfcbaa8921b679a42d7d7
 .footer-main-block {
   align-items: center;
   margin-bottom: 80px;
