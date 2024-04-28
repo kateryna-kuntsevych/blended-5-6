@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-<<<<<<< HEAD
 h1,
 h2,
 h3,
@@ -82,6 +81,56 @@ a {
   text-decoration-skip-ink: none;
   color: #bbf330;
 }
+
+/* ===============Section 1 Hanna Bondarenko ========== */
+
+.hero {
+  max-width: 1248px;
+  padding: 0 16px 55px 16px;
+}
+
+.container-text-btn {
+  margin: 159px 160px 219px 0;
+  min-width: 511px;
+}
+.page-hero {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-title {
+  margin-bottom: 28px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #2c2c2c;
+}
+.hero-text {
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+.order-now-btn {
+  border-radius: 30px;
+  border: none;
+  padding: 6px 17px;
+  min-width: 98px;
+  height: 32px;
+  background: #bbf330;
+}
+.order-now-btn:hover {
+  background: #ffe450;
+}
+.salat-hero {
+  margin-top: 40px;
+  margin-right: 49px;
+  margin-bottom: 40px;
+  border-radius: 291px;
+  width: 528px;
+  height: 528px;
+}
+
 /* ================== Section 3 Андрей Слюсаренко ================== */
 .section-favorites {
   padding: 120px 0 101px 32px;
@@ -224,13 +273,6 @@ a {
 }
 
 /* ====================== Footer ======================= */
-=======
-ul {
-  list-style-type: none;
-}
-
-/* ======================= Footer ======================= */
->>>>>>> 1dd0bc57bec5327d2b5bfcbaa8921b679a42d7d7
 footer li {
   display: block;
 }
@@ -240,13 +282,6 @@ footer {
   background-size: contain;
   background-repeat: no-repeat;
 }
-<<<<<<< HEAD
-=======
-.container {
-  width: 1280px;
-  margin: 0 auto;
-}
->>>>>>> 1dd0bc57bec5327d2b5bfcbaa8921b679a42d7d7
 .footer-main-block {
   align-items: center;
   margin-bottom: 80px;
