@@ -1,0 +1,312 @@
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+button {
+  cursor: pointer;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+ul {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+.container {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+/* =================== HEADER Den Djoya ================== */
+.page-header {
+  box-shadow: 0 4px 24px 0 rgba(105, 105, 105, 0.1);
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-page-nav {
+  margin-left: auto;
+}
+.header-list {
+  display: flex;
+  gap: 28px;
+}
+.header-list-link {
+  font-size: 14px;
+  color: #2c2c2c;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.header-button {
+  padding: 6px 18px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: right;
+  color: #2c2c2c;
+  border-radius: 30px;
+  padding: 6px 17px;
+  width: 98px;
+  height: 32px;
+  background: #bbf330;
+  border: none;
+  margin-left: 30px;
+}
+.active {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #bbf330;
+}
+/* ================== Section 3 Андрей Слюсаренко ================== */
+.section-favorites {
+  padding: 120px 0 101px 32px;
+}
+.list-favorites {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.item-favorites {
+  border: 16px solid #ffe550;
+  border-radius: 197px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 394px;
+  max-height: 397px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.item-favorites:hover {
+  border: 16px solid #bbf330;
+}
+.favorites-img {
+  border-radius: 157px;
+  margin: 41px 40px;
+}
+.title-favorites {
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.text-favorites {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 16px;
+}
+/* ================== Section 4 Кирило ================== */
+.section-of-reviews {
+  background: #ffe550;
+  padding: 140px 92px 126px 16px;
+}
+.reviews-title {
+  font-weight: 700;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.reviews-paragraph {
+  font-size: 16px;
+  margin-bottom: 33px;
+}
+.container-of-reviews {
+  display: flex;
+  gap: 139px;
+}
+.reviews-container {
+  padding: 14px;
+  background-color: #ffffff;
+  border-radius: 0 30px 30px 30px;
+}
+.list-of-stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 29px;
+}
+.review {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.container-of-account {
+  display: flex;
+  gap: 16px;
+}
+.container-of-names {
+  display: flex;
+  flex-direction: column;
+  padding-right: 16px;
+  border-right: 1px solid #7eb101;
+}
+.review-name-text {
+  font-weight: 500;
+  font-size: 14px;
+  color: #2c2c2c;
+  margin-bottom: 2px;
+}
+.review-name-paragraph {
+  font-size: 14px;
+}
+
+/*=================== Section 5 Karpenko================*/
+.page-subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 176px;
+  padding-bottom: 201px;
+}
+
+.title-subscribe {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.text-subscribe {
+  font-size: 16px;
+  width: 532px;
+  margin-bottom: 24px;
+}
+
+.form-subscribe {
+  display: flex;
+  gap: 32px;
+}
+
+.input-subscribe {
+  border: 0.85px solid #ffe550;
+  border-radius: 30px;
+  padding: 10px;
+  width: 395px;
+  height: 42px;
+  background-color: #fefefe;
+  font-size: 12px;
+  color: #505050;
+  margin-right: 32px;
+}
+
+.button-subscribe {
+  border-radius: 30px;
+  border: none;
+  padding: 10px 20px;
+  width: 103px;
+  background-color: #bbf330;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* ====================== Footer ======================= */
+footer li {
+  display: block;
+}
+footer {
+  background: url("../images/footer_background_desktop.png");
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.footer-main-block {
+  align-items: center;
+  margin-bottom: 80px;
+  justify-content: space-between;
+}
+.d-flex {
+  display: flex;
+}
+.footer-bottom-info {
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-header-info {
+  display: flex;
+  gap: 28px;
+  margin: 0 auto;
+}
+.footer-header-info a {
+  color: #2c2c2c;
+  text-decoration: none;
+}
+form.footer-form {
+  display: flex;
+  align-items: center;
+}
+button.sub-btn.btn {
+  margin-left: 38px;
+  width: 100%;
+  max-width: 103px;
+  height: 43px;
+}
+.footer-links {
+  gap: 20px;
+}
+.footer-links-btn {
+  color: #7eb101;
+}
+.footer-form-block {
+  /* position: relative;
+    z-index: 1; */
+  width: 279px;
+}
+.footer-form-block #email-input {
+  border-radius: 30px;
+}
+#email-input {
+  background: transparent;
+  border: 1px solid #ffe550;
+  /* position: relative;
+    z-index: 3; */
+  outline: none;
+  height: 18px;
+  padding: 12px;
+  color: #505050;
+  border-radius: 2px;
+  width: 100%;
+}
+/* footer .label-for-email {
+    position: absolute;
+    z-index: 2;
+    left: 4%;
+    top: 34%;
+    transition: .1s all ease;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.7);
+} */
+/* .footer-form-block input:not(:placeholder-shown) + label,.footer-form-block input:active + label,.footer-form-block input:focus + label {
+    top: -9px;
+    background: #fff;
+    padding: 0 5px;
+    z-index: 4;
+    font-size: 12px;
+    color: #505050;
+} */
