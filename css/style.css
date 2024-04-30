@@ -134,6 +134,11 @@ a {
 .hero-button:focus {
   background-color: #ffe450;
 }
+/*=================  Section 2 Євген ================  */
+.apple-section {
+  background-color: #ffe550;
+}
+
 /* ================== Section 3 Андрей Слюсаренко ================== */
 .section-favorites {
   padding: 120px 0 101px 32px;
