@@ -58,7 +58,7 @@ a {
   padding-top: 28px;
   padding-bottom: 28px;
 
-  transform: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-list-link:hover,
 .header-list-link:focus {
@@ -81,7 +81,7 @@ a {
   border: none;
   margin-left: 30px;
 
-  transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .active {
   font-weight: 700;
@@ -128,7 +128,7 @@ a {
   border: none;
   height: 32px;
 
-  transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -157,7 +157,7 @@ a {
   max-width: 394px;
   max-height: 397px;
 
-  transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item-favorites:hover {
@@ -281,7 +281,7 @@ a {
   font-size: 13px;
   line-height: 1.5;
 
-  transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-subscribe:hover,
 .button-subscribe:focus {
