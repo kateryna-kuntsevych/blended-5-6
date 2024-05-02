@@ -78,6 +78,74 @@ body {
   color: #bbf330;
 }
 
+/* ===================== section 2 =============== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.apple-section-img .section-header .apple-section-text {display: block;}
+
+.container-background{background-color: #ffe550;}
+
+.apple-section-contaiter {display: flex;
+justify-content: space-between;
+padding: 113px 51px 124px 16px;}
+
+.apple-section-img {width: 396px;
+height: 502px;}
+
+.apple-section-contaiter-right{
+width: 573px;
+margin-top: 83px;
+margin-bottom: 108px; margin-left: auto;
+}
+
+.special-offer{display: flex;
+flex-direction: column;
+width: 573px;
+margin-bottom: 40px;}
+
+.section-header{
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 120%;
+  margin-bottom: 20px;
+}
+
+.apple-section-list{display: flex;
+gap: 67px;
+margin-bottom: 32px;}
+
+.apple-section-list-item {width: 253px;}
+
+.apple-section-button {font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  border: 2px solid #7eb101;
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: 106px;
+    height: 40px;
+    background: #fff;
+}
+
 /* ======================= Footer ======================= */
 footer li {
   display: block;
