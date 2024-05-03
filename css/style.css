@@ -294,8 +294,16 @@ footer li {
 footer {
   background: url("../images/footer_background_desktop.png");
   background-position: bottom;
-  background-size: contain;
+  background-size: 90%;
   background-repeat: no-repeat;
+  padding: 100px 0 50px;
+  box-shadow: 0 -4px 24px 0 rgba(105, 105, 105, 0.1);
+}
+.container {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .footer-main-block {
   align-items: center;
@@ -313,65 +321,85 @@ footer {
   display: flex;
   gap: 28px;
   margin: 0 auto;
-}
-.footer-header-info a {
-  color: #2c2c2c;
-  text-decoration: none;
+  padding: 0;
 }
 form.footer-form {
   display: flex;
   align-items: center;
 }
 button.sub-btn.btn {
-  margin-left: 38px;
   width: 100%;
   max-width: 103px;
-  height: 43px;
+  border-radius: 30px;
+  border: 0.85px solid #7EB101;
+  padding: 10px 20px;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-left: 13px;
+  cursor: pointer;
+}
+button.sub-btn.btn:hover,
+button.sub-btn.btn:active {
+  border: 0.85px solid #ffe450;
+  transition: 0.5s;
 }
 .footer-links {
   gap: 20px;
+  padding: 0;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0;
 }
 .footer-links-btn {
-  color: #7eb101;
+  color: #7EB101;
+}
+.footer-links-btn:hover,
+.footer-links-btn:active {
+  color: #551a8b;
+  text-decoration: none;
 }
 .footer-form-block {
-  /* position: relative;
-    z-index: 1; */
   width: 279px;
 }
-.footer-form-block #email-input {
-  border-radius: 30px;
-}
 #email-input {
-  background: transparent;
-  border: 1px solid #ffe550;
-  /* position: relative;
-    z-index: 3; */
-  outline: none;
-  height: 18px;
-  padding: 12px;
-  color: #505050;
-  border-radius: 2px;
+  border: 0.85px solid #ffe550;
+  border-radius: 30px;
+  padding: 10px;
   width: 100%;
+  max-width: 279px;
+  height: 42px;
 }
-/* footer .label-for-email {
-    position: absolute;
-    z-index: 2;
-    left: 4%;
-    top: 34%;
-    transition: .1s all ease;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: rgba(255, 255, 255, 0.7);
-} */
-/* .footer-form-block input:not(:placeholder-shown) + label,.footer-form-block input:active + label,.footer-form-block input:focus + label {
-    top: -9px;
-    background: #fff;
-    padding: 0 5px;
-    z-index: 4;
-    font-size: 12px;
-    color: #505050;
-} */
+#email-input:focus-visible {
+  border: 0.85px solid #7EB101;
+  outline: none;
+  transition: 0.5s;
+}
+.footer-header-info-link {
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  color: #2C2C2C;
+}
+.footer-header-info-link:hover,
+.footer-header-info-link:active {
+  color: #7EB101;
+  text-decoration: underline;
+}
+footer .sub-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  margin: 0 0 12px 0;
+}
+footer .privacy {
+  font-weight: 400;
+  font-size: 12px;
+  margin: 12px 0 0 0;
+}
+footer .copyright {
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0;
+}
