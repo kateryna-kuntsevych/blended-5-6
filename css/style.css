@@ -179,10 +179,9 @@ a {
 .apple-section-button:hover,
 .apple-section-button:focus {
   background-color: #bbf330;
-  border: none;
+  border-color: transparent;
 }
 .apple-section-icon {
-  border-radius: 50%;
   margin-bottom: 8px;
 }
 /* ================== Section 3 Андрей Слюсаренко ================== */
@@ -377,7 +376,7 @@ button.sub-btn.btn {
   width: 100%;
   max-width: 103px;
   border-radius: 30px;
-  border: 0.85px solid #7EB101;
+  border: 0.85px solid #7eb101;
   padding: 10px 20px;
   background-color: transparent;
   font-weight: 500;
@@ -387,7 +386,7 @@ button.sub-btn.btn {
   cursor: pointer;
 }
 button.sub-btn.btn:hover,
-button.sub-btn.btn:active {
+button.sub-btn.btn:focus {
   border: 0.85px solid #ffe450;
   transition: 0.5s;
 }
@@ -399,10 +398,12 @@ button.sub-btn.btn:active {
   margin: 0;
 }
 .footer-links-btn {
-  color: #7EB101;
+  display: inline;
+  color: #7eb101;
+  text-decoration: underline;
 }
 .footer-links-btn:hover,
-.footer-links-btn:active {
+.footer-links-btn:focus {
   color: #551a8b;
   text-decoration: none;
 }
@@ -416,9 +417,12 @@ button.sub-btn.btn:active {
   width: 100%;
   max-width: 279px;
   height: 42px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #505050;
 }
 #email-input:focus-visible {
-  border: 0.85px solid #7EB101;
+  border: 0.85px solid #7eb101;
   outline: none;
   transition: 0.5s;
 }
@@ -426,12 +430,11 @@ button.sub-btn.btn:active {
   font-weight: 400;
   font-size: 14px;
   text-decoration: none;
-  color: #2C2C2C;
+  color: #2c2c2c;
 }
 .footer-header-info-link:hover,
-.footer-header-info-link:active {
-  color: #7EB101;
-  text-decoration: underline;
+.footer-header-info-link:focus {
+  color: #7eb101;
 }
 footer .sub-text {
   font-weight: 500;
