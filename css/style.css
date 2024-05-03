@@ -137,8 +137,54 @@ a {
 /*=================  Section 2 Євген ================  */
 .apple-section {
   background-color: #ffe550;
+  padding-top: 113px;
 }
+.flex-box-apple {
+  display: flex;
+  gap: 90px;
+}
+.apple-contaiter-left {
+  padding-bottom: 124px;
+}
+.apple-contaiter-right {
+  padding-top: 83px;
+}
+.section-header {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.apple-section-text {
+  margin-bottom: 40px;
+  width: 500px;
+}
+.apple-section-list {
+  display: flex;
+  gap: 67px;
+  margin-bottom: 32px;
+}
+.sub-title {
+  margin-bottom: 16px;
+}
+.apple-section-button {
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 2px solid #7eb101;
+  border-radius: 30px;
 
+  font-weight: 500;
+  font-size: 13px;
+}
+.apple-section-button:hover,
+.apple-section-button:focus {
+  background-color: #bbf330;
+  border: none;
+}
+.apple-section-icon {
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
 /* ================== Section 3 Андрей Слюсаренко ================== */
 .section-favorites {
   padding: 120px 0 101px 32px;
