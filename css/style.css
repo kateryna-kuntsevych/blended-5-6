@@ -134,7 +134,7 @@ a {
 .hero-button:focus {
   background-color: #ffe450;
 }
-/*=================  Section 2 Євген ================  */
+/*=================  Section 2 Катя ================  */
 .apple-section {
   background-color: #ffe550;
   padding-top: 113px;
@@ -175,6 +175,7 @@ a {
 
   font-weight: 500;
   font-size: 13px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .apple-section-button:hover,
 .apple-section-button:focus {
@@ -202,10 +203,11 @@ a {
   max-width: 394px;
   max-height: 397px;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.item-favorites:hover {
+.item-favorites:hover,
+.item-favorites:focus {
   border: 16px solid #bbf330;
 }
 .favorites-img {
@@ -384,11 +386,11 @@ button.sub-btn.btn {
   line-height: 1.5;
   margin-left: 13px;
   cursor: pointer;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 button.sub-btn.btn:hover,
 button.sub-btn.btn:focus {
   border: 0.85px solid #ffe450;
-  transition: 0.5s;
 }
 .footer-links {
   gap: 20px;
@@ -401,6 +403,7 @@ button.sub-btn.btn:focus {
   display: inline;
   color: #7eb101;
   text-decoration: underline;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-links-btn:hover,
 .footer-links-btn:focus {
@@ -431,6 +434,7 @@ button.sub-btn.btn:focus {
   font-size: 14px;
   text-decoration: none;
   color: #2c2c2c;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-header-info-link:hover,
 .footer-header-info-link:focus {
