@@ -456,3 +456,125 @@ footer .copyright {
   font-size: 12px;
   margin: 0;
 }
+  /* ====================== BACKDROP Настя ======================= */
+
+  .backdrop{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(94, 99, 99, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .backdrop.is-open{
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .modal{
+    position: absolute;
+    border-radius: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 458px;
+    min-height: 449px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+    background: #ffe550;
+    padding: 32px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .modal-close-btn-icon{
+    fill: #2c2c2c;
+    box-shadow: inset 2px 1px 4px 0 rgba(61, 61, 61, 0.1);
+
+  }
+ .modal-close-btn{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 12px;
+    right: 12px; 
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    box-shadow: inset 2px 1px 4px 0 rgba(61, 61, 61, 0.1);
+    background-color: #fff;;
+    border: none;  
+    line-height: 0;
+    fill:  #2c2c2c;
+  }
+  
+  .modal-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+
+  .modal-input{
+    width: 100%;
+    height: 48px;
+    border-radius: 30px;
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    border: none;
+    padding-left: 12px;
+    outline: transparent;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-input:focus{
+  border: 1px solid #7eb101;
+  outline: transparent;
+}
+
+.modal-input::placeholder{
+  font-size: 16px;
+  line-height: 1.25;
+  color: #c4c4c4;
+}
+
+.form-label{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-left: 12px;
+}
+
+.modal-form-container:not(:last-child){
+ margin-bottom: 24px;
+}
+
+.modal-send-btn{
+  display: block;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  border: 2px solid #7eb101;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 106px;
+  height: 40px;
+  background-color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 32px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-send-btn:focus,
+.modal-send-btn:hover{
+  background-color: #bbf330;
+}

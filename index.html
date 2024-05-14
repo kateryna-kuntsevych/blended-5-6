@@ -359,5 +359,44 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button class="modal-close-btn" type="button">
+          <svg class="modal-close-btn-icon" width="10" height="10">
+            <use href="./icon.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Order Form</p>
+
+        <form>
+          <div class="modal-form-container">
+            <label for="user-name" class="form-label">Name
+            </label>
+            <input class="modal-input" name="user-name" type="text" id="user-name" 
+            placeholder="Your name" pattern="[A-Za-z]{2,20}" 
+            title="This field is required" required>
+          </div>
+
+          <div class="modal-form-container">
+            <label for="user-phone" class="form-label">Phone number
+            </label>
+            <input class="modal-input" name="user-phone" type="tel" id="user-phone" 
+            placeholder="+38(0_ _) _ _ _   _ _   _ _" pattern="^\+\d{2}\(\d{3}\)\d{3} \d{2} \d{2}$" 
+            title="This field is required" required>
+          </div>
+
+          <div class="modal-form-container">
+            <label for="user-email" class="form-label">E-mail
+            </label>
+            <input class="modal-input" name="user-email" type="email" id="user-email" 
+            placeholder="example@gmail.com" pattern="[a-z0-9._%+-]@[a-z]\.[a-z]{2,4}" 
+            title="This field is required" required>
+          </div>
+
+          <button class="modal-send-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
