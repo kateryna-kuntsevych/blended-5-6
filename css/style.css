@@ -23,7 +23,6 @@ ul {
   margin-bottom: 0;
   padding-left: 0;
 }
-}
 img {
   display: block;
 }
@@ -140,7 +139,7 @@ a {
 }
 .review-name-paragraph {
   font-size: 14px;
-
+}
 /* ====================== Footer ======================= */
 footer li {
   display: block;
