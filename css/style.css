@@ -1,93 +1,13 @@
-* {
-  box-sizing: border-box;
-}
-h1,
-h2,
-h3,
-h4,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-button {
-  cursor: pointer;
-}
-body {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.5;
-  color: #2c2c2c;
-}
-ul {
-  list-style-type: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-}
-img {
-  display: block;
-}
-.container {
-  max-width: 1310px;
-  margin: 0 auto;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-a {
-  display: block;
-  text-decoration: none;
-}
+
 /* =================== HEADER Den Djoya ================== */
 .page-header {
 }
-.header-container {
-  display: flex;
-  align-items: center;
-}
-.header-page-nav {
-  margin-left: auto;
-}
+
+
 
 .logo {
 }
 
-.header-list {
-  display: flex;
-  gap: 28px;
-}
-
-.header-list-item {
-}
-
-.header-list-link {
-  font-size: 14px;
-  color: #2c2c2c;
-  padding-top: 28px;
-  padding-bottom: 28px;
-}
-
-.header-button {
-  padding: 6px 18px;
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 1.5;
-  text-align: right;
-  color: #2c2c2c;
-  border-radius: 30px;
-  padding: 6px 17px;
-  width: 98px;
-  height: 32px;
-  background: #bbf330;
-  border: none;
-  margin-left: 30px;
-}
-.active {
-  font-weight: 700;
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
-  color: #bbf330;
-}
 /* ================== Section 4 Кирило ================== */
 .section-of-reviews {
   background: #ffe550;
@@ -139,7 +59,7 @@ a {
 }
 .review-name-paragraph {
   font-size: 14px;
-
+}
 /* ====================== Footer ======================= */
 footer li {
   display: block;
@@ -207,7 +127,7 @@ button.sub-btn.btn {
   border-radius: 2px;
   width: 100%;
 }
-/* footer .label-for-email {
+ footer .label-for-email {
     position: absolute;
     z-index: 2;
     left: 4%;
@@ -219,12 +139,12 @@ button.sub-btn.btn {
     font-size: 16px;
     line-height: 20px;
     color: rgba(255, 255, 255, 0.7);
-} */
-/* .footer-form-block input:not(:placeholder-shown) + label,.footer-form-block input:active + label,.footer-form-block input:focus + label {
+} 
+.footer-form-block input:not(:placeholder-shown) + label,.footer-form-block input:active + label,.footer-form-block input:focus + label {
     top: -9px;
     background: #fff;
     padding: 0 5px;
     z-index: 4;
     font-size: 12px;
     color: #505050;
-} */
+} 
