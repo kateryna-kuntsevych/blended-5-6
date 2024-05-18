@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" />
-
+    <link rel="stylesheet" href="./css/new-styles.css">
   </head>
   <body>
     <!-- Header Євген -->
@@ -44,46 +44,38 @@
           </ul>
         </nav>
         <button class="header-button" type="button">Order now</button>
+      <button class="btn-mobile-menu">
+        <svg class="mobile-menu-svg" width="28px" height="28px">
+          <use href="./images/icon.svg#icon-gg_menu"></use>
+        </svg>
+      </button>
       </div>
     </header>
     <main>
       <!-- Section 1 Бондаренко Аня -->
-      <section class="hero-section ">
-        <div class="container flex-box-hero">
-          <div class="hero-text-contaiter">
-            <h1 class="hero-title section-header">Enjoy Your
-              Favorite Food From
-              Anywhere</h1>
-            <p class="hero-text">
-              With just a few clicks, you can have your favorite
-              meals
-              delivered
-              straight to your doorstep, no matter where you are.
-              Order now and
-              enjoy a hassle-free and delicious meal from the
-              comfort
-              of your own
-              home.
-            </p>
-            <button class="hero-button" type="button">Order
-              Now</button>
-          </div>
-          <div class="hero-img-contaiter">
-            <img
-              class="salat-hero"
-              src="./images/section1_salat_desktop.png"
-              alt="salad in a plate"
-              width="528" />
-          </div>
-
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
+          <p class="hero-text">
+            With just a few clicks, you can have your favorite meals delivered
+            straight to your doorstep, no matter where you are. Order now and
+            enjoy a hassle-free and delicious meal from the comfort of your own
+            home.
+          </p>
+          <button class="order-now-btn" type="button">Order Now</button>
+          <img
+            class="salat-hero"
+            src="./images/section1_salat_desktop.png"
+            alt="salad in a plate"
+            width="528"
+          />
         </div>
-      </section>
+      </section>-->
 
       <!-- Section 2 Андрій Рутс -->
       <section class="apple-section">
-        <div class="container flex-box-apple">
-          <div class="apple-contaiter-left">
-
+        <div class="container">
+          <div class="apple-section-contaiter-left">
             <img
               class="apple-section-img"
               src="./images/section2_apple.png"
@@ -138,8 +130,9 @@
           </div>
         </div>
       </section>
+
       <!-- Section 3 Катя Кунцевич -->
-      <section class="section-favorites">
+      <!-- <section class="section-favorites">
         <div class="container">
           <h2 class="title-favorites">Some of Our Favorites</h2>
           <p class="text-favorites">Looking for something delicious?</p>
@@ -173,9 +166,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Section 4 Іван -->
-      <section class="section-of-reviews">
+      <!-- <section class="section-of-reviews">
         <div class="container">
           <h2 class="reviews-title">What our Customers Say</h2>
           <p class="reviews-paragraph">
@@ -267,10 +260,10 @@
 
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Section 5 Ліза -->
-      <section>
+      <!-- <section>
         <div class="container">
           <div class="page-subscribe">
             <div class=>
@@ -296,10 +289,10 @@
           </div>
         </div>
       </section>
-    </main>
+    </main> -->
 
     <!-- Footer Андрій Соколовський -->
-    <footer>
+    <!-- <footer>
       <div class="container">
         <div class="d-flex footer-main-block">
           <a href="./index.html">
@@ -333,9 +326,11 @@
                 <div class="footer-form-block">
                   <input class="footer-input" type="email" name="email"
                     id="email-input"
-                    placeholder="Enter your email">
+                    placeholder="Enter your email"
+                  />
+                  <!-- <label for="email-input" class="label-for-email">Enter your email</label> -->
                 </div>
-                <button class="sub-btn btn" type="button">Subscribe</button>
+                <button class="sub-btn btn">Subscribe</button>
               </form>
             </div>
             <p class="privacy">By subscribing you agree to with our <a href="#"
@@ -359,44 +354,5 @@
         </div>
       </div>
     </footer>
-
-    <div class="backdrop is-open">
-      <div class="modal">
-        <button class="modal-close-btn" type="button">
-          <svg class="modal-close-btn-icon" width="10" height="10">
-            <use href="./icon.svg#icon-close"></use>
-          </svg>
-        </button>
-        <p class="modal-title">Order Form</p>
-
-        <form>
-          <div class="modal-form-container">
-            <label for="user-name" class="form-label">Name
-            </label>
-            <input class="modal-input" name="user-name" type="text" id="user-name" 
-            placeholder="Your name" pattern="[A-Za-z]{2,20}" 
-            title="This field is required" required>
-          </div>
-
-          <div class="modal-form-container">
-            <label for="user-phone" class="form-label">Phone number
-            </label>
-            <input class="modal-input" name="user-phone" type="tel" id="user-phone" 
-            placeholder="+38(0_ _) _ _ _   _ _   _ _" pattern="^\+\d{2}\(\d{3}\)\d{3} \d{2} \d{2}$" 
-            title="This field is required" required>
-          </div>
-
-          <div class="modal-form-container">
-            <label for="user-email" class="form-label">E-mail
-            </label>
-            <input class="modal-input" name="user-email" type="email" id="user-email" 
-            placeholder="example@gmail.com" pattern="[a-z0-9._%+-]@[a-z]\.[a-z]{2,4}" 
-            title="This field is required" required>
-          </div>
-
-          <button class="modal-send-btn" type="submit">Send</button>
-        </form>
-      </div>
-    </div>
   </body>
 </html>
